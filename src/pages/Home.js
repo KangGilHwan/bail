@@ -3,7 +3,9 @@ import { LoginContainer } from "../containers";
 
 class Home extends Component {
   render() {
-    return <LoginContainer />;
+    return (
+      <LoginContainer />
+    )
   }
 }
 

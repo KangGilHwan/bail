@@ -10,6 +10,8 @@ import {
   SocialLoginBtn,
   LoginButton
 } from "../../styledComponents";
+import Facebook from './Facebook';
+import Kakao from './Kakao';
 
 const Login = ({
   inputId,
@@ -56,10 +58,11 @@ const Login = ({
           </SInfoInputForm>
           <div className="social-login">
             <SocialLoginBtn>
-              <SFbIcon /> 페이스북 로그인
+              <Facebook />
             </SocialLoginBtn>
             <SocialLoginBtn>
               <SGoogleIcon /> 구글 로그인
+              <Kakao />
             </SocialLoginBtn>
             <SocialLoginBtn>
               <SGithubIcon /> 깃헙 로그인
